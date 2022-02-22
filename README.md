@@ -7,7 +7,11 @@ _Note: This action is a custom add-on made to enrich [deploy-cloud-functions](ht
 2. If you don't like the idea to push secret environment variables your .yaml to GitHub.
 3. If you don't like the idea to store the environment variables in a datastore.
 
-### Action swaps environment variables in app.yaml with the minimal effort
+<p align="center">
+  <img src="https://i.imgur.com/iUgzFep.png">
+</p>
+
+### Action swaps environment variables in your file.yaml with the minimal effort
 
 1. Modify your < NAME >.yaml file:
 
