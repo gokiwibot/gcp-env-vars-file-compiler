@@ -52,15 +52,16 @@ Full example with deployment to Google App Engine:
 
 This is an example of how you may can set up the project locally.
 
-## _Option 1_
-### Prerequisites
+### _Option 1_
+**Prerequisites**
 * Install docker (https://docs.docker.com/engine/install/)
 * Install extensions on vscode:
     * [ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 * open the repository with vscode and click on open container option
 
 
-## _Option 2_
+### _Option 2_
+**Prerequisites**
 * Install go 1.7 (https://go.dev/doc/install)
 
 ### Installation
