@@ -50,7 +50,7 @@ Full example with deployment to Google App Engine:
 <!-- GETTING STARTED -->
 ## Development getting started
 
-This is an example of how you may can set up the project locally.
+This is an example of how you may set up the project locally.
 
 ### _Option 1_
 **Prerequisites**
