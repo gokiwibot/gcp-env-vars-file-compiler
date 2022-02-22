@@ -3,7 +3,7 @@ FROM golang:1.17-alpine as builder
 # building app
 WORKDIR /go/src/app
 ADD . /go/src/app
-RUN go mod download
+RUN go get -d -v
 RUN go build -o /go/bin/app main.go
 
 FROM alpine
