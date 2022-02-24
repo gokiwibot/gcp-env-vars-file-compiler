@@ -20,7 +20,7 @@ _Note: This action is a custom add-on made to enrich [deploy-cloud-functions](ht
 
 2. Add this action to your workflow:
 
-        - uses: kiwicampus/gcp-env-vars-file-compiler@v1.2
+        - uses: gokiwibot/gcp-env-vars-file-compiler@v1.2
           with:
             file: ./< NAME >.yaml
           env:
@@ -35,7 +35,7 @@ Full example with deployment to Google App Engine:
         needs: [build]
     steps:
         - uses: actions/checkout@v2
-        - uses: kiwicampus/gcp-env-vars-file-compiler@v1.2
+        - uses: gokiwibot/gcp-env-vars-file-compiler@v1.2
           with:
             file: ./< NAME >.yaml
           env:
