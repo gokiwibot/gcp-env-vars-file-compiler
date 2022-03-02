@@ -27,7 +27,7 @@ _Note: This action is a custom add-on made to enrich [deploy-cloud-functions](ht
             KEY1: ${{ secrets.KEY1 }}
             KEY2: ${{ secrets.KEY2 }}
 
-Full example with deployment to Google App Engine:     
+Full example with deployment to Google Cloud Function:     
 
     deploy:
         name: Deploy
