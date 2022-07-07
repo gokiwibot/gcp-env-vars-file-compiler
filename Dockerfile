@@ -6,6 +6,6 @@ ADD . /go/src/app
 RUN go get -d -v
 RUN go build -o /go/bin/app main.go
 
-FROM alpine:3.15
+FROM alpine:3.16
 COPY --from=builder /go/bin/app /
 ENTRYPOINT ["/app"]
